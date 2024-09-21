@@ -1,0 +1,210 @@
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  /* b
+
+/* General Styles */
+* {
+    font-family: gilroy;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #222  ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    padding-left: 2rem;
+    background: url('gym-background.jpg') no-repeat center center/cover;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+}
+.hero-content>h2{
+    font-family: oswald; 
+    font-size: 3.5rem;
+}
+.hero-content>p{
+    font-size: 20px;
+    font-family: gilroy;
+    letter-spacing: 1px;
+}
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-button {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+
+/* Membership Section */
+.membership {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.membership h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.plan h3 {
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.plan a.btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.plan.popular {
+    background: #ff5733;
+    color: #fff;
+}
+
+/* Form Section */
+.form-section {
+    padding: 50px 1rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right{
+    min-height: 100vh;
+}
+.right>h1{
+    font-family: oswald;
+    width: 40vw;
+    text-align: left;
+    display: inline-block;
+    color: #fff;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.right .cardContainer{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: gilroy;
+    justify-content: space-evenly;
+}
+.right .cardContainer .card{
+    min-width: 17vw;
+    color: #fff;
+    cursor: pointer;
+    min-height: 30vh;
+    padding: 1rem .5rem .5rem 1rem;
+    background-color: #444;
+    border-radius: 20px;
+}
+.right .cardContainer .card h3{
+    padding: .5rem .75rem;
+    margin: .25rem .25rem;
+    background-color: #555;
+    display: inline-block;
+    border-radius: 50px;
+    color: #ccc;
+}
+.right .cardContainer .card h3 span{
+    font-weight: normal;
+}
+.right .cardContainer .card p{
+    margin: 3rem 0 0 .5rem;
+    letter-spacing: -.5px;
+    width: 14rem;
+    font-size: .75rem;
+    color: #aaa;
+
+}
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+@media (max-width: 800px){
+.right .cardContainer{
+    flex-direction: column;
+    gap : 2rem;
+}
+}

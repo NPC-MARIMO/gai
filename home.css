@@ -1,0 +1,454 @@
+/* fonts */
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/* boiler plate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    overflow-x: hidden;
+}
+/* nav */
+.page1{ 
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/995/026/large_2x/interior-of-a-modern-gym-with-fitness-equipment-generative-ai-photo.jpg);
+}
+
+/* page 1 left div */
+.content{
+    display: flex   ;
+    padding-left: 5rem;
+    justify-content: space-between;
+
+}
+.page1 .left{
+    padding-top: 5rem;
+    color: #fff;
+    width: 50vw;
+}
+.page1 .left h1{
+    display: inline-block;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+.page1 .left h1:nth-child(1){
+    margin-top: 10rem ;
+}
+.page1 .left p{
+    margin-top: 2rem;
+    min-width: 32vw;
+    font-family: gilroy;
+}
+.page1 .left button{
+    margin-top: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
+    border: none;
+    text-transform: capitalize;
+    background-color: yellow;
+}
+.page1 .left p.two{
+    margin-top: 6rem;
+    text-transform: capitalize;
+}
+/* page 1 bottom right div */
+.page1 .right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    width: 30vw;
+    min-height: 100vh;
+}
+.page1 .right .rightBottom{
+    min-height: 400px;
+    min-width: 300px;
+    background-color: rgba(255, 213, 0, 0.711);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: gilroy;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.page1 .right .rightBottom .top{
+    border-radius: 10% 10% 10% 89% / 10% 10% 10% 89%  ;
+    min-height: 10rem;
+    width: 15rem;
+    overflow: hidden;
+}
+.page1 .right .rightBottom .top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page1 .right .rightBottom .bottom{
+    padding-left: 1.5rem;
+    min-height: 13rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 17rem;
+    background-color: #ffffffcd;
+    border-radius: 10% 91% 10% 14% / 10% 90% 9% 13%  ;
+}
+.page1 .right .rightBottom .bottom h3{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.page1 .right .rightBottom .bottom p{
+    margin-top: 1rem;
+    font-size: .8rem;
+    width: 200px;
+}
+.page1 .right .rightBottom .bottom button{
+    border: none;
+    background-color: #111;
+    border-radius: 5px;
+    height: 2rem;
+    transform: translateY(.8rem);
+}
+.page1 .right .rightBottom .bottom button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px;
+}
+/* page 2 */
+.page2{
+    min-width: 100vw;
+    padding: 2rem;
+    height: 100vh;
+    background-color: #202021;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page2 .div{
+    min-width: 30vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    gap: 1rem;
+}
+.page2 .div:nth-child(1){
+    padding: 3rem 0 0 1rem;
+    align-items: flex-start;
+}
+.page2 .div:nth-child(1) .image {
+    background-color: rebeccapurple;
+    width: 8rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    overflow: hidden;
+}
+.page2 .div:nth-child(1) .image img{
+    width: 10rem ;
+}
+.page2 .div:nth-child(1) h1{
+    font-family: oswald;
+    font-size: 3rem;
+}
+.page2 .div:nth-child(1) .card {
+    background: #333333b6;
+    min-height: 30vh;
+    min-width: 30vh;
+    gap: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    padding:  0 2rem;
+}
+.page2 .div:nth-child(1) .card h1{
+    font-family: gilroy;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.page2 .div:nth-child(1) .card p{
+    font-family: gilroy;
+    min-width: 7vw;
+}
+.page2 .div:nth-child(1) .card button{
+    border: none;
+    min-width: 7vw;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    font-family: gilroy;
+}
+
+.page2 .div:nth-child(2) .image{
+    overflow: hidden;
+    min-height: 60vh;
+    min-width: 27vw;
+    margin-top: 9rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.page2 .div:nth-child(2) .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.page2 .div:nth-child(3) .image {
+    min-width: 27vw;
+    padding: 1rem;
+    overflow: hidden;
+    height: 35vh;
+}
+.page2 .div:nth-child(3) , .page2 .div:nth-child(2){
+    justify-content: center;
+}
+
+.page2 .div:nth-child(3) .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover   ;
+    border-radius: 10px;
+}
+.page2 .div:nth-child(3) p{
+    font-family: gilroy;
+    padding:2rem 6rem;
+}
+.page2 .div:nth-child(3) button{
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-family: gilroy;
+    text-transform: uppercase;
+    border :none;
+    margin-left: 2rem;
+    background-color: #FFFF00;
+    transform: translateX(-90%);
+}
+/* page 3 */
+.page3{
+    width: 100vw;
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    background-color: #313232;
+}
+.page3>.left{
+    width: 40vw;
+    padding: 5rem;
+    height: 100%;
+    
+}
+.page3>.left .image {
+    width: 8rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    overflow: hidden;
+}
+.page3>.left .image img{
+    width: 9rem;
+}   
+.page3>.left .premiumCard{
+    margin-top: 10vh;
+    border-radius: 20px;
+    width: 300px    ;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+    min-height: 20vw;
+}
+.page3>.left .premiumCard .top{
+    width: 100%;
+    padding:  0 1rem;
+    font-family: gilroy;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page3>.left .premiumCard .top .left button{
+    border: none;
+    background-color: #FFFF00;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    font-family: gilroy;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+.page3>.left .premiumCard .bottom{
+    padding: 2rem;
+    font-family: montserrat;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -1;
+    gap: .7rem;
+}
+.page3>.left .premiumCard .bottom .details{
+    display: flex;
+    gap: 0.5rem;
+}
+.page3>.left .premiumCard .bottom .details .check{
+    border-radius: 50%;
+    border: 1px solid #000;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page3>.right{
+    height: 100%;
+}
+.page3>.right>h1{
+    font-family: oswald;
+    margin-right: 2rem;
+    min-width: 40vw;
+    text-align: right;
+    display: inline-block;
+    color: #fff;
+    margin-top: 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-left: 15vw;
+}
+.page3>.right .cardContainer{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap ;
+    font-family: gilroy;
+    justify-content: space-evenly;
+}
+.page3>.right .cardContainer .card{
+    min-width: 17vw;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+    min-height: 30vh;
+    margin-top: 1rem;
+    padding: 1rem 0 0 1rem;
+    background-color: #444;
+    border-radius: 20px;
+}
+.page3>.right .cardContainer .card h3{
+    padding: .5rem .75rem;
+    margin: .25rem .25rem;
+    background-color: #555;
+    display: inline-block;
+    border-radius: 50px;
+    color: #ccc;
+}
+.page3>.right .cardContainer .card h3 span{
+    font-weight: normal;
+}
+.page3>.right .cardContainer .card p{
+    margin: 3rem 0 0 .5rem;
+    letter-spacing: -.5px;
+    width: 14rem;
+    font-size: .75rem;
+    color: #aaa;
+}
+/* page 4 */
+.page4{
+    min-height: 80vh;
+    padding: 3rem;
+    width: 100vw;
+    position: relative;
+    background-color: #DDCA24;
+}
+
+.page4 .image {
+    width: 8rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    overflow: hidden;
+}
+.page4 .image img{
+    width: 9rem;
+}   
+.page4>h1{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    font-family: oswald;
+    font-size: 5rem;
+    text-align: center;
+}
+.page4>p{
+    text-align: center;
+    font-family: syne;
+    width: 40vw;
+    margin: auto;
+}
+.page4 .info{
+    margin-top: 8vh;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.page4 .info .one , .page4 .info .two{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.page4 .info .sec{
+    padding:2rem 1rem .5rem 2rem;
+    min-width: 22vw;
+    border-radius: 20px;
+    min-height: 25vh;
+    background-color: #F1E792;
+}
+.page4 .info .sec h1{
+    font-family: montserrat;
+    font-size: 2.5rem;
+}
+.page4 .info .sec p{
+    font-family: gilroy;
+    font-weight: 700;
+    color: #333;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
